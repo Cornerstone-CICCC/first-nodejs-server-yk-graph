@@ -1,0 +1,27 @@
+{
+  "name": "202_w2d1_first-nodejs-server",
+  "version": "1.0.0",
+  "description": "**Objective:** Build and run your first Node.js HTTP server to gain hands-on experience with server-side development.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "dev": "concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/first-nodejs-server-yk-graph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/first-nodejs-server-yk-graph/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/first-nodejs-server-yk-graph#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "concurrently": "^10.0.0"
+  }
+}
